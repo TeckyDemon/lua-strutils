@@ -30,11 +30,13 @@ Clone this repository:
 
 `$ git clone "https://github.com/DeBos99/lua-strutils.git"`
 
+## Usage
+
 Move the file **strutils.lua** to your project directory and include it:
 
 `require 'strutils'`
 
-## Methods
+### Methods
 
 | Method                             | Description                                                |
 | :---                               | :---                                                       |
