@@ -1,7 +1,5 @@
 # Lua-StrUtils
 
-## Description
-
 **Lua-StrUtils** is simple extension for **string** table in Lua.
 
 ## Prerequisites
@@ -35,6 +33,8 @@ Clone this repository:
 Move the file **strutils.lua** to your project directory and include it:
 
 `require 'strutils'`
+
+## Documentation
 
 ### Methods
 
