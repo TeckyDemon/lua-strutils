@@ -2,6 +2,22 @@
 
 **Lua-StrUtils** is simple extension for **string** table in Lua.
 
+## Content
+
+- [Content](#content)
+- [Prerequisites](#prerequisites)
+  - [Windows](#windows)
+  - [Linux](#linux)
+    - [APT](#apt)
+    - [Pacman](#pacman)
+  - [MacOS](#macos)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Documentation](#documentation)
+  - [Methods](#methods)
+- [Authors](#authors)
+- [License](#license)
+
 ## Prerequisites
 
 ### Windows
