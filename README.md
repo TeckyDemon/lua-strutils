@@ -16,6 +16,7 @@
 - [Documentation](#documentation)
   - [Methods](#methods)
 - [Authors](#authors)
+- [Contact](#contact)
 - [License](#license)
 
 ## Prerequisites
@@ -80,6 +81,10 @@ Move the file **strutils.lua** to your project directory and include it:
 ## Authors
 
 * **Michał Wróblewski** - Main Developer - [DeBos99](https://github.com/DeBos99)
+
+## Contact
+
+Discord: DeBos#3292
 
 ## License
 
