@@ -1,5 +1,7 @@
 # Lua-StrUtils
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **Lua-StrUtils** is simple extension for **string** table in Lua.
 
 ## Content
