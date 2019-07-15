@@ -24,13 +24,13 @@
 ## Content
 
 - [Content](#content)
-- [Prerequisites](#prerequisites)
-  - [Windows](#windows)
-  - [Linux](#linux)
-    - [APT](#apt)
-    - [Pacman](#pacman)
-  - [MacOS](#macos)
 - [Installation](#installation)
+  - [Windows](#windows)
+  - [Unix](#unix)
+    - [Debian/Ubuntu](#apt)
+    - [Arch Linux/Manjaro](#pacman)
+    - [CentOS](#yum)
+    - [MacOS](#homebrew)
 - [Usage](#usage)
 - [Documentation](#documentation)
   - [Methods](#methods)
@@ -38,53 +38,64 @@
 - [Contact](#contact)
 - [License](#license)
 
-## Prerequisites
+## Installation
 
 ### Windows
 
-Install Lua: https://sourceforge.net/projects/luabinaries/files/5.3.5/Tools%20Executables/lua-5.3.5_Win32_bin.zip/download
-
-### Linux
-
-#### APT
-
+* Install [Lua](https://sourceforge.net/projects/luabinaries/files/5.3.5/Tools%20Executables/lua-5.3.5_Win32_bin.zip/download).
+* Run following command in the command prompt:
 ```
-sudo apt update && sudo apt upgrade -y
-sudo apt install lua5.3 -y
+git clone "https://github.com/DeBos99/lua-strutils.git"
 ```
 
-#### Pacman
+### Unix
 
-```
-sudo pacman -Syu --noconfirm
-sudo pacman -S lua --noconfirm
-```
+#### <a name="APT">Debian/Ubuntu based
 
-### MacOS
-
+* Run following commands in the terminal:
 ```
-brew update && brew upgrade
-brew install lua
+sudo apt install git lua -y
+git clone "https://github.com/DeBos99/lua-strutils.git"
 ```
 
-## Installation
+#### <a name="Pacman">Arch Linux/Manjaro
 
-Clone this repository:
+* Run following commands in the terminal:
+```
+sudo pacman -S git lua --noconfirm
+git clone "https://github.com/DeBos99/lua-strutils.git"
+```
 
-`git clone "https://github.com/DeBos99/lua-strutils.git"`
+#### <a name="YUM">CentOS
+
+* Run following commands in the terminal:
+```
+sudo yum install git lua -y
+git clone "https://github.com/DeBos99/lua-strutils.git"
+```
+
+#### <a name="Homebrew">MacOS
+
+* Run following commands in the terminal:
+```
+brew install git lua
+git clone "https://github.com/DeBos99/lua-strutils.git"
+```
 
 ## Usage
 
-Move the file **strutils.lua** to your project directory and include it:
-
-`require 'strutils'`
+* Move the file [strutils.lua](strutils.lua) to your project directory.
+* Add following line at the top of your source file:
+```
+require 'strutils'
+```
 
 ## Documentation
 
 ### Methods
 
 | Method                             | Description                                                |
-| :---                               | :---                                                       |
+| :--------------------------------- | :--------------------------------------------------------- |
 | \_string.\_\_add(s1,s2) <br> s1+s2 | Returns concatenation of **s1** and **s2**.                |
 | \_string.\_\_mul(s,n) <br> s\*n    | Returns **n** repetitions of **s**.                        |
 | \_string.\_\_index(s,i) <br> s\[i] | Returns **i<sup>th</sup>** character of **s**.             |
