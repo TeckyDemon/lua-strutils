@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.17] - 2019-09-23
+
+### Changed
+
+##### [CHANGELOG.md](CHANGELOG.md)
+
+- Section names to links.
+
 ## [1.0.16] - 2019-09-17
 
 ### Added
@@ -21,7 +29,7 @@ All notable changes to this project will be documented in this file.
 
 ##### [README.md](README.md)
 
-- Reddit profile to `Contact` section.
+- Reddit profile to [Contact](https://github.com/DeBos99/lua-strutils#contact) section.
 
 ## [1.0.13] - 2019-07-23
 
@@ -43,7 +51,7 @@ All notable changes to this project will be documented in this file.
 
 ##### [README.md](README.md)
 
-- More details to `Installation` section.
+- More details to [Installation](https://github.com/DeBos99/lua-strutils#installation) section.
 
 ## [1.0.10] - 2019-05-26
 
@@ -51,7 +59,7 @@ All notable changes to this project will be documented in this file.
 
 ##### [README.md](README.md)
 
-- `Donate` button.
+- [Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NH8JV53DSVDMY) button.
 
 ## [1.0.9] - 2019-05-25
 
@@ -75,7 +83,7 @@ All notable changes to this project will be documented in this file.
 
 ##### [README.md](README.md)
 
-- `Contact` section.
+- [Contact](https://github.com/DeBos99/lua-strutils#contact) section.
 
 ## [1.0.6] - 2019-03-29
 
@@ -91,7 +99,7 @@ All notable changes to this project will be documented in this file.
 
 ##### [README.md](README.md)
 
-- `Content` section.
+- [Content](https://github.com/DeBos99/lua-strutils#content) section.
 
 ## [1.0.4] - 2019-03-14
 
@@ -99,7 +107,7 @@ All notable changes to this project will be documented in this file.
 
 ##### [README.md](README.md)
 
-- More details to `Installation` section.
+- More details to [Installation](https://github.com/DeBos99/lua-strutils#installation) section.
 
 ## [1.0.3] - 2019-03-14
 
@@ -107,7 +115,7 @@ All notable changes to this project will be documented in this file.
 
 ##### [README.md](README.md)
 
-- `Description` and `Documentation` sections.
+- [Description](https://github.com/DeBos99/lua-strutils#description) and [Documentation](https://github.com/DeBos99/lua-strutils#documentation) sections.
 
 ## [1.0.2] - 2019-03-12
 
@@ -115,7 +123,7 @@ All notable changes to this project will be documented in this file.
 
 ##### [README.md](README.md)
 
-- `Usage` section.
+- [Usage](https://github.com/DeBos99/lua-strutils#usage) section.
 
 ## [1.0.1] - 2019-03-10
 
